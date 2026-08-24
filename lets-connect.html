@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Let&rsquo;s Connect | Astradive</title>
+<meta name="description" content="Send us a brief or book a call. Offices in Los Angeles and Noida." />
+<meta name="theme-color" content="#05070f" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Astradive" />
+<meta property="og:title" content="Let&rsquo;s Connect | Astradive" />
+<meta property="og:description" content="Send us a brief or book a call. Offices in Los Angeles and Noida." />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+<link rel="stylesheet" href="assets/pages.css" />
+</head>
+<body>
+<a href="#main" class="sr-only">Skip to main content</a>
+
+<header class="header" id="header">
+  <div class="shell">
+    <a class="brand" href="index.html" aria-label="Astradive home">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="bm" x1="0" y1="0" x2="32" y2="32">
+            <stop offset="0" stop-color="#4cc9f0" /><stop offset=".55" stop-color="#7b61ff" /><stop offset="1" stop-color="#f072b6" />
+          </linearGradient>
+        </defs>
+        <circle cx="16" cy="16" r="14" stroke="url(#bm)" stroke-width="1.6" />
+        <path d="M16 4c6.6 0 12 5.4 12 12s-5.4 12-12 12C19 24 20 20.4 20 16S19 8 16 4Z" fill="url(#bm)" />
+        <circle cx="16" cy="16" r="2.6" fill="#05070f" />
+      </svg>
+      <span>Astradive</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle navigation"><span></span></button>
+
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#process">Process</a>
+      <a href="industries.html">Industries</a>
+      <a href="index.html#company">Company</a>
+      <a href="careers.html">Careers</a>
+      <a href="lets-connect.html" class="btn btn-primary">Let&rsquo;s Talk</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="glow glow-a" aria-hidden="true"></div>
+    <div class="shell">
+      <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <b>Let&rsquo;s Connect</b>
+      </nav>
+      <span class="eyebrow">Contact</span>
+      <h1>Start with the problem, not the spec</h1>
+      <p class="lead">Send a few paragraphs about what you are trying to do. We reply with questions, a scope and a number &mdash; usually within two working days.</p>
+      
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell contact-grid">
+      <div class="reveal"><span class="eyebrow">Let&rsquo;s talk</span><h2>Tell us what you&rsquo;re building</h2><p class="lead">A senior engineer joins the first call &mdash; not a salesperson. Expect straight answers about feasibility, cost and what we would cut.</p><div class="offices">
+        <div class="office">
+          <h3>United States</h3>
+          <p>1 Placeholder Plaza, Suite 900<br />Los Angeles, CA 90045</p>
+          <a href="tel:+15550000000">+1 555 000 0000</a>
+        </div>
+        <div class="office">
+          <h3>India</h3>
+          <p>Placeholder Business Park, Tower 2<br />Sector 135, Noida, UP 201305</p>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </div></div>
+      <form id="contactForm" novalidate>
+        <div class="row">
+          <label>Full name<input type="text" name="name" placeholder="Jane Mercer" required /></label>
+          <label>Work email<input type="email" name="email" placeholder="jane@company.com" required /></label>
+        </div>
+        <div class="row">
+          <label>Company<input type="text" name="company" placeholder="Company Ltd" /></label>
+          <label>Budget range
+            <select name="budget">
+              <option>Under $25k</option>
+              <option selected>$25k &ndash; $75k</option>
+              <option>$75k &ndash; $150k</option>
+              <option>$150k+</option>
+            </select>
+          </label>
+        </div>
+        <label>What are you building?<textarea name="brief" placeholder="The problem, who it is for, and any deadline you are working against." required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send brief</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+        <p class="form-note">Demo form &mdash; no backend wired up. Point <code>action</code> at your form handler or CRM endpoint.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="foot-grid">
+      <div class="foot-about">
+        <a class="brand" href="index.html">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="16" cy="16" r="14" stroke="url(#bm)" stroke-width="1.6" />
+            <path d="M16 4c6.6 0 12 5.4 12 12s-5.4 12-12 12C19 24 20 20.4 20 16S19 8 16 4Z" fill="url(#bm)" />
+            <circle cx="16" cy="16" r="2.6" fill="#0a0f1e" />
+          </svg>
+          <span>Astradive</span>
+        </a>
+        <p>An AI product studio. We ship the first version fast, then engineer it to last.</p>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05A4.2 4.2 0 0 1 17.6 8.7c3 0 3.9 1.9 3.9 5V21h-4v-6.1c0-1.5-.5-2.5-1.9-2.5-1 0-1.6.7-1.9 1.4-.1.2-.1.6-.1.9V21h-4z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.2 2H21l-6.1 7L21.6 22h-6.3l-4.3-6.2L5.9 22H3l6.5-7.5L2.7 2H9l4 5.9zm-1 18h1.6L7.8 3.7H6.1z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.9c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.4-1.1.7-1.4-2.2-.2-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.6 5 .4.4.7 1 .7 2.1v3c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="mvp-development.html">MVP Development</a></li>
+          <li><a href="enterprise-ai-solutions.html">Enterprise AI</a></li>
+          <li><a href="data-analytics.html">Data Analytics</a></li>
+          <li><a href="cloud-engineering.html">Cloud Engineering</a></li>
+          <li><a href="ios-android-app-development.html">Mobile Apps</a></li>
+          <li><a href="ui-ux-designing.html">UI/UX Design</a></li>
+          <li><a href="product-development.html">Product Development</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html#company">About us</a></li>
+          <li><a href="industries.html">Industries</a></li>
+          <li><a href="index.html#work">Clients</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="blogs.html">Blog</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><a href="tel:+15550000000">+1 555 000 0000</a></li>
+          <li><a href="schedule-meeting.html">Book a strategy call</a></li>
+          <li><a href="lets-connect.html">Los Angeles &middot; Noida</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>&copy; <span id="year">2026</span> Astradive. All rights reserved.</span>
+      <nav aria-label="Legal">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-condition.html">Terms &amp; Conditions</a>
+        <a href="lets-connect.html">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
